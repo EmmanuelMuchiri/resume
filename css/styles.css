@@ -61,3 +61,14 @@ img.standard-size {
   width: 350px;
   float: left;
 }
+img.text-box
+{
+  border-left: 2px solid red;
+  border-right: 4px solid blue;
+  border-top: 6px solid orange;
+  border-bottom: 8px solid black;
+  border: 2px solid red;
+  padding: 6px;
+  margin: 20px;
+  background-color:grey;
+}
