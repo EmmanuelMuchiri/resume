@@ -1,68 +1,69 @@
-.line1
-{
+.line1 {
   color: red;
   font-style: italic;
 }
-#line2
-{
-  color: red;
-}
-.important
-{
-  color: red;
 
+#line2 {
+  color: red;
 }
-.unimportant
-{
+
+.important {
+  color: red;
+}
+
+.unimportant {
   color: blue;
 }
-.cat-climate
-{
+
+.cat-climate {
   background-color: yellow;
   font-style: italic;
   text-decoration: underline;
 }
-.headings
-{
+
+.headings {
   text-align: center;
   text-decoration: underline;
 }
-.border
-{
+
+.border {
   border-style: solid;
   float: right;
 }
-.paragraph
-{
+
+.paragraph {
   color: red;
 }
-.school
-{
+
+.school {
   font-style: italic;
 }
+
 .pull-left {
   float: left;
 }
+
 .pull-right {
   float: right;
 }
+
 img.standard-size {
   width: 300px;
-  height:auto;
+  height: auto;
 }
-.sidebar
-{
+
+.sidebar {
   width: 30%;
-  float :right;
+  float: right;
   background-color: yellow;
 }
-.column
-{
+
+.column {
   width: 350px;
   float: left;
 }
-img.text-box
-{
+
+img.text-box {
   border-left: 2px solid red;
   border-right: 4px solid blue;
   border-top: 6px solid orange;
@@ -70,5 +71,20 @@ img.text-box
   border: 2px solid red;
   padding: 6px;
   margin: 20px;
-  background-color:grey;
+  background-color: grey;
+}
+
+.cats p
+{
+  background-color: coral;
+  font-weight: bold;
+}
+.dogs p
+{
+  background-color: steelblue;
+  font-style: italic;
+}
+.links
+{
+  text-decoration: underline;
 }
