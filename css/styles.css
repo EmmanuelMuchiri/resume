@@ -1,8 +1,24 @@
-body
-{
-  background-color:skyblue;
-
+@media screen and (min-width: 480px) {
+  body {
+    background-color: skyblue;
+    color: maroon;
+  }
 }
+
+@media screen and (min-width :768px) {
+  body {
+    background-color: red;
+  }
+  .floats
+  {
+    width: 250px;
+    float: right;
+    padding: 30px;
+
+  }
+}
+
+
 .line1 {
   color: red;
   font-style: italic;
@@ -79,25 +95,24 @@ text-box {
   background-color: grey;
 }
 
-.cats p
-{
+.cats p {
   background-color: coral;
   font-weight: bold;
 }
-.dogs p
-{
+
+.dogs p {
   background-color: steelblue;
   font-style: italic;
 }
-.links
-{
+
+.links {
   text-decoration: underline;
 }
-.p1 p
-{
+
+.p1 p {
   border-style: solid;
 }
-.p2 p
-{
+
+.p2 p {
   background-color: gray;
 }
