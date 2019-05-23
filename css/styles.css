@@ -1,3 +1,8 @@
+body
+{
+  background-color:skyblue;
+
+}
 .line1 {
   color: red;
   font-style: italic;
@@ -26,7 +31,7 @@
   text-decoration: underline;
 }
 
-.border {
+.border p {
   border-style: solid;
   float: right;
 }
@@ -63,7 +68,7 @@ img.standard-size {
   float: left;
 }
 
-img.text-box {
+text-box {
   border-left: 2px solid red;
   border-right: 4px solid blue;
   border-top: 6px solid orange;
@@ -87,4 +92,12 @@ img.text-box {
 .links
 {
   text-decoration: underline;
+}
+.p1 p
+{
+  border-style: solid;
+}
+.p2 p
+{
+  background-color: gray;
 }
